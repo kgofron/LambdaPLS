@@ -1,0 +1,25 @@
+defineOperationMode TwentyFourBit 0 3 Twenty_four_bit_readout
+defineOperationMode ContinuousReadWrite 1 1 A_single_threshold
+defineOperationMode CalibModeGaAs 1 1 calibration_for_GaAs
+defineOperationMode CalibMode 1 1 calibration
+modulesPresent XnModule_2019-005_GaAs
+modulesPosition 0 0 0
+setOperatingMode TwentyFourBit
+setMultilink 0
+setBurstMode 1
+systemType handshake
+defineDstPortNo 4321 4422
+defineSrcPortNo 4320 4320
+defineDstMACAddressCH0 3c:fd:fe:bc:e7:10
+defineDstIPAddressCH0 169.254.2.1
+defineDstMACAddressCH1 3c:fd:fe:bc:e7:10
+defineDstIPAddressCH1 169.254.2.1
+defineSrcMACAddressCH0 00:0c:f1:f4:b0:3d
+defineSrcIPAddressCH0 169.254.2.2
+defineSrcMACAddressCH1 00:0c:f1:f4:b0:4d
+defineSrcIPAddressCH1 169.254.3.2
+defineDetIPAddressTCP 169.254.1.2
+defineDetPortTCP 4321
+defineRawBuffer 20000
+defineDecodedBuffer 100
+defineDecodingThreads 1 1 2 1.99
